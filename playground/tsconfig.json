@@ -1,0 +1,15 @@
+{
+  "extends": "personal-style-guide/typescript/node",
+  "include": [
+    "src"
+  ],
+  "compilerOptions": {
+    "paths": {
+      "ts-state-machine": [
+        [
+          "../../dist"
+        ]
+      ]
+    }
+  }
+}
