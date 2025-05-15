@@ -1,17 +1,17 @@
-# ts-state-machine
+# state-machine-typescript
 
 Typescript State Machine library
 
 ## Installation
 
 ```bash
-npm install ts-state-machine
+npm install state-machine-typescript
 ```
 
 ## Usage
 
 ```typescript
-import { add } from "ts-state-machine";
+import { add } from "state-machine-typescript";
 
 console.log(add(1, 2)); // 3
 ```
@@ -21,10 +21,6 @@ console.log(add(1, 2)); // 3
 - `npm run dev`: Start development mode with auto-rebuild
 - `npm run playground`: Start the playground
 - `npm test`: Run tests
-
-
-
-
 
 ## License
 

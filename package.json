@@ -1,5 +1,5 @@
 {
-  "name": "ts-state-machine",
+  "name": "state-machine-typescript",
   "version": "0.1.0",
   "description": "Typescript State Machine library",
   "type": "module",
@@ -17,7 +17,7 @@
     }
   },
   "workspaces": [
-    "playground/*"
+    "playground"
   ],
   "scripts": {
     "dev": "tsup --watch",
@@ -31,8 +31,7 @@
     "test:coverage": "vitest run --coverage",
     "prepare": "husky",
     "semantic-release": "semantic-release",
-    "play:terminal": "npm run dev --workspace=playground/terminal",
-    "play:browser": "npm run dev --workspace=playground/browser",
+    "playground": "npm run dev --workspace=playground",
     "size": "size-limit"
   },
   "lint-staged": {
@@ -57,13 +56,13 @@
     }
   ],
   "license": "MIT",
-  "homepage": "https://github.com/fvena/ts-state-machine#readme",
+  "homepage": "https://github.com/fvena/state-machine-typescript#readme",
   "repository": {
     "type": "git",
-    "url": "git+git@github-personal:fvena/ts-state-machine.git"
+    "url": "git+git@github-personal:fvena/state-machine-typescript.git"
   },
   "bugs": {
-    "url": "https://github.com/fvena/ts-state-machine/issues"
+    "url": "https://github.com/fvena/state-machine-typescript/issues"
   },
   "author": "Francisco Vena <fvena32@gmail.com>",
   "engines": {

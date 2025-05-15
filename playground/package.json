@@ -6,7 +6,7 @@
     "dev": "tsx watch --clear-screen=false src/index.ts"
   },
   "dependencies": {
-    "ts-state-machine": "*"
+    "state-machine-typescript": "*"
   },
   "devDependencies": {
     "tsx": "^4.6.2"

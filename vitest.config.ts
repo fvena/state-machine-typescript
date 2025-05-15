@@ -16,23 +16,5 @@ export default defineConfig({
     },
     environment: "node",
     globals: true,
-    workspace: [
-      {
-        extends: true,
-        test: {
-          environment: "node",
-          include: ["test/core/**/*.test.ts", "test/terminal/**/*.test.ts"],
-          name: "terminal",
-        },
-      },
-      {
-        extends: true,
-        test: {
-          environment: "jsdom",
-          include: ["test/browser/**/*.test.ts"],
-          name: "browser",
-        },
-      },
-    ],
   },
 });
