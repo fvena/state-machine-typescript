@@ -9,6 +9,6 @@
     "state-machine-typescript": "*"
   },
   "devDependencies": {
-    "tsx": "^4.6.2"
+    "tsx": "^4.19.4"
   }
 }
